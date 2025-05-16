@@ -4,6 +4,7 @@
   "description": "A Code reviewer app that is used to review the code",
   "main": "index.js",
   "scripts": {
+    "build": "cd frontend && npm install && npm run build",
     "build:frontend": "cd frontend && npm install && npm run build",
     "start:backend": "cd backend && npm install && node server.js",
     "start": "npm run build:frontend && npm run start:backend"
