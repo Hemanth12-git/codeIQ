@@ -1,0 +1,21 @@
+{
+  "name": "code-reviewer",
+  "version": "1.0.0",
+  "description": "A Code reviewer app that is used to review the code",
+  "main": "index.js",
+  "scripts": {
+    "build:frontend": "cd frontend && npm install && npm run build",
+    "start:backend": "cd backend && npm install && node server.js",
+    "start": "npm run build:frontend && npm run start:backend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hemanth12-git/codeIQ.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hemanth12-git/codeIQ/issues"
+  },
+  "homepage": "https://github.com/Hemanth12-git/codeIQ#readme"
+}
